@@ -8,13 +8,13 @@ pip install tf-nightly-gpu
 
 pip install -r requirements.txt
 
-## Training
+## Training seq2seq model
 
 set args.evaluate=False, run:
 
 python train_attention.py 
 
-## Test
+## Test seq2seq model
 
 set args.evaluate=True, run:
 
